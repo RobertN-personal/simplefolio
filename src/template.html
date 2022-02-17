@@ -1,206 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
-    <title>Robert Neagu | Developer</title>
-    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="Daemen, RobertN, html, css, javascript" />
-    <!-- Improve your SEO by adding a small descrption of you -->
-    <meta name="description" content="Robert Neagu | Developer" />
 
-    <!-- Required libraries -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script>
-      ScrollReveal({ reset: false });
-    </script>
-    <script src="https://kit.fontawesome.com/92e0d4649b.js" crossorigin="anonymous"></script>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
+  <title>Robert Neagu | Developer</title>
+  <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+  <meta name="keywords" content="Daemen, RobertN, html, css, javascript" />
+  <!-- Improve your SEO by adding a small descrption of you -->
+  <meta name="description" content="Robert Neagu | Developer" />
 
-    <!-- Remove this script once you setup your custom portfolio -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
-  </head>
+  <!-- Required libraries -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+    ScrollReveal({ reset: false });
+  </script>
+  <script src="https://kit.fontawesome.com/92e0d4649b.js" crossorigin="anonymous"></script>
 
-  <!-- Follow the HTML instructions to create your stunning portfolio website -->
-  <body>
-    <div id="top"></div>
+  <!-- Remove this script once you setup your custom portfolio -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+</head>
 
-    <!-- **** Hero Section **** -->
-    <div id="hero" class="jumbotron">
-      <div class="container">
-        <h1 class="hero-title" class="load-hidden">
-          Hi, my name is <span class="text-color-main">Robert Neagu</span>
-          <br />
-          I'm a junior web developer!
-        </h1>
-        <p class="hero-cta" class="load-hidden">
-          <a class="cta-btn cta-btn--hero" href="#about">Know more</a>
-        </p>
+<!-- Follow the HTML instructions to create your stunning portfolio website -->
+
+<body>
+  <div id="top"></div>
+
+  <!-- **** Hero Section **** -->
+  <div id="hero" class="jumbotron">
+    <div class="container">
+      <h1 class="hero-title" class="load-hidden">
+        Hi, my name is <span class="text-color-main">Robert Neagu</span>
+        <br />
+        I'm a junior web developer!
+      </h1>
+      <p class="hero-cta" class="load-hidden">
+        <a class="cta-btn cta-btn--hero" href="#about">Know more</a>
+      </p>
+    </div>
+  </div>
+  <!-- /END Hero Section -->
+
+  <!-- **** About Section **** -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">
+        About me
+      </h2>
+      <div class="row about-wrapper">
+        <div class="col-md-6 col-sm-12">
+          <div class="about-wrapper__image">
+            <img class="img-fluid rounded shadow-lg" height="auto" width="300px" src="./assets/profile.jpg"
+              alt="Profile Image" />
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="about-wrapper__info">
+            <p class="about-wrapper__info-text">
+              I am an aspiring web developer, looking to learn more about programming and web in general!
+            </p>
+            <p class="about-wrapper__info-text">
+              I enjoy all things techy, long chats, and both together!
+            </p>
+            <span class="d-flex mt-3">
+              <a target="_blank" class="cta-btn cta-btn--resume"
+                href="https://www.linkedin.com/in/robert-neagu-b752a5128/">
+                View Resume
+              </a>
+            </span>
+          </div>
+        </div>
       </div>
     </div>
-    <!-- /END Hero Section -->
+  </section>
+  <!-- /END About Section -->
 
-    <!-- **** About Section **** -->
-    <section id="about">
-      <div class="container">
-        <h2 class="section-title">
-          About me
+  <!-- **** Projects Section **** -->
+  <section id="projects">
+    <div class="container">
+      <div class="project-wrapper">
+        <h2 class="section-title dark-blue-text">
+          Projects
         </h2>
-        <div class="row about-wrapper">
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__image">
-              <img
-                class="img-fluid rounded shadow-lg"
-                height="auto"
-                width="300px"
-                src="./assets/profile.jpg"
-                alt="Profile Image"
-              />
+
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Quote Generator</h3>
+              <div>
+                <p class="mb-4">
+                  Just a simple app calling the Forismatic API to fetch a quote upon pressing a button. The quote can
+                  also be tweeted!
+                </p>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero"
+                href="https://robertn-personal.github.io/quote-generator/">
+                See Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main"
+                href="https://github.com/RobertN-personal/quote-generator">
+                Source Code
+              </a>
             </div>
           </div>
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__info">
-              <p class="about-wrapper__info-text">
-                  I am an aspiring web developer, looking to learn more about programming and web in general!
-              </p>
-              <p class="about-wrapper__info-text">
-                  I enjoy all things techy, long chats, and both together!
-              </p>
-              <span class="d-flex mt-3">
-                <a target="_blank" class="cta-btn cta-btn--resume" href="https://www.linkedin.com/in/robert-neagu-b752a5128/">
-                  View Resume
-                </a>
-              </span>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="#!" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/quote-generator.png" />
+                </div>
+              </a>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- /END About Section -->
+        <!-- /END Project -->
 
-    <!-- **** Projects Section **** -->
-    <section id="projects">
-      <div class="container">
-        <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">
-            Projects
-          </h2>
-
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Quote Generator</h3>
-                <div>
-                  <p class="mb-4">
-                    Just a simple app calling the Forismatic API to fetch a quote upon pressing a button. The quote can also be tweeted!
-                  </p>
-                </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="https://robertn-personal.github.io/quote-generator/">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/RobertN-personal/quote-generator">
-                  Source Code
-                </a>
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Infinite Scrolling</h3>
+              <div>
+                <p class="mb-4">
+                  Scroll infinitely through photos retrieved from the Unsplash API. This is done by having the photos
+                  load in the background.
+                </p>
               </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="#!" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/quote-generator.png"/>
-                  </div>
-                </a>
-              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero"
+                href="https://robertn-personal.github.io/infinite-scrolling/">
+                See Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main"
+                href="https://github.com/RobertN-personal/infinite-scrolling">
+                Source Code
+              </a>
             </div>
           </div>
-          <!-- /END Project -->
-
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Infinite Scrolling</h3>
-                <div>
-                  <p class="mb-4">
-                    Scroll infinitely through photos retrieved from the Unsplash API. This is done by having the photos load in the background.
-                  </p>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="#!" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/infinite-scroll.png" />
                 </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="https://robertn-personal.github.io/infinite-scrolling/">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/RobertN-personal/infinite-scrolling">
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="#!" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/infinite-scroll.png"/>
-                  </div>
-                </a>
-              </div>
+              </a>
             </div>
           </div>
-          <!-- /END Project -->
-
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Upcoming</h3>
-                <div>
-                  <p class="mb-4">
-                    
-                  </p>
-                </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="https://robertn-personal.github.io/quote-generator/">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/RobertN-personal/quote-generator">
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="#!" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/quote-generator.png"/>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
         </div>
-      </div>
-    </section>
-    <!-- /END Projects Section -->
+        <!-- /END Project -->
 
-    <!-- **** Contact Section **** -->
-    <section id="contact">
-      <div class="container">
-        <h2 class="section-title">
-          Contact
-        </h2>
-        <div class="contact-wrapper">
-          <p class="contact-wrapper__text">
-            
-          </p>
-          <a target="_blank" class="cta-btn cta-btn--resume" href="mailto:constantin.robert@outlook.com">Email</a>
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Upcoming</h3>
+              <div>
+                <p class="mb-4">
+
+                </p>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero"
+                href="https://robertn-personal.github.io/quote-generator/">
+                See Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main"
+                href="https://github.com/RobertN-personal/quote-generator">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="#!" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/quote-generator.png" />
+                </div>
+              </a>
+            </div>
+          </div>
         </div>
+        <!-- /END Project -->
       </div>
-    </section>
-    <!-- /END Contact Section -->
-    <footer class="footer navbar-static-bottom">
+    </div>
+  </section>
+  <!-- /END Projects Section -->
+
+  <!-- **** Contact Section **** -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">
+        Contact
+      </h2>
+      <div class="contact-wrapper">
+        <p class="contact-wrapper__text">
+
+        </p>
+        <a target="_blank" class="cta-btn cta-btn--resume" href="mailto:constantin.robert@outlook.com">Email</a>
+      </div>
+    </div>
+  </section>
+  <!-- /END Contact Section -->
+  <footer class="footer navbar-static-bottom">
     <div class="social-links container" style="font-weight: 600;">
       <a href="https://www.facebook.com/pabibabumboom/" target="_blank">
         <i class="fab fa-facebook"></i>
@@ -213,6 +216,7 @@
       </a>
     </div>
   </footer>
-    <!-- /END Footer Section -->
-  </body>
+  <!-- /END Footer Section -->
+</body>
+
 </html>
